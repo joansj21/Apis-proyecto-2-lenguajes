@@ -1,0 +1,6 @@
+@Cupones.api_HostAddress = http://localhost:5049
+
+GET {{Cupones.api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
