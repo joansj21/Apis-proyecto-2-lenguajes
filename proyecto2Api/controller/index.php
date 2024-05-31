@@ -1,6 +1,6 @@
 <?php
 
-include 'bd/BD.php';
+include '../bd/BD.php';
 
 header('Access-Control-Allow-Origin: *');
 
