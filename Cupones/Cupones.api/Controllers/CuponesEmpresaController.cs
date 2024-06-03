@@ -22,5 +22,14 @@ namespace Cupones.api.Controllers
 
             return gestionarCuponesBW.getAll();
         }
+
+
+        [HttpGet("{id}")]
+
+        public Task<string> ObtenerTodosLosPersonajes(int id)
+        {
+
+            return gestionarCuponesBW.getcupon(id);
+        }
     }
 }

@@ -8,6 +8,6 @@ namespace Cupones.BC.Constantes
 {
     public class URLCuponesConstante
     {
-        public const string URL = "http://localhost/proyecto2Api/getCupones.php";
+        public const string URL = "http://localhost/proyecto2Api/controller/externalCuponesController.php";
     }
 }

@@ -9,8 +9,6 @@
   <ItemGroup>
     <Folder Include="Enumerados\" />
     <Folder Include="LogicaDeNegocios\" />
-    <Folder Include="Modelos\" />
-    <Folder Include="ReglasDeNegocios\" />
   </ItemGroup>
 
 </Project>

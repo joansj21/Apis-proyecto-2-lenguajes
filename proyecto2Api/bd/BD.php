@@ -32,6 +32,30 @@ function metodoGet($query){
         die("Error: ".$e);
     }
 }
+/*---------------------------------- */
+function metodoGetProcedure($query) {
+    try {
+        conectar();
+        $sentencia = $GLOBALS['pdo']->prepare($query);
+
+        $sentencia->setFetchMode(PDO::FETCH_ASSOC);
+
+        $sentencia->execute();
+
+        $results = [];
+        do {
+            $results[] = $sentencia->fetchAll(PDO::FETCH_ASSOC);
+        } while ($sentencia->nextRowset());
+
+        desconectar();
+        return $results;
+    } catch (Exception $e) {
+        die("Error: " . $e->getMessage());
+    }
+}
+
+
+/*------------------------------------------------ */
 
 function metodoPost($query, $queryAutoIncrement){
     try{
@@ -47,6 +71,21 @@ function metodoPost($query, $queryAutoIncrement){
         die("Error: ".$e);
     }
 }
+
+function metodoPostImg($url, $idCupon){
+    try {
+        conectar();
+        $stmt = $GLOBALS['pdo']->prepare("CALL InsertOrUpdateImagenCupon(?, ?)");
+        $stmt->bindParam(1, $url, PDO::PARAM_STR);
+        $stmt->bindParam(2, $idCupon, PDO::PARAM_INT);
+        $stmt->execute();
+        desconectar();
+        return "Procedimiento almacenado ejecutado con éxito.";
+    } catch (Exception $e) {
+        die("Error: " . $e->getMessage());
+    }
+}
+
 
 
 function metodoPut($query){

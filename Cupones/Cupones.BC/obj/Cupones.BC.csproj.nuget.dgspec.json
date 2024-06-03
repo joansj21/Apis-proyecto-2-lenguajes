@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DELL G5\\Desktop\\api proyecto 2\\Cupones\\Cupones.BC\\Cupones.BC.csproj": {}
+    "C:\\Users\\DELL G5\\Desktop\\Proyecto 2\\Proyecto 2 api\\Cupones\\Cupones.BC\\Cupones.BC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DELL G5\\Desktop\\api proyecto 2\\Cupones\\Cupones.BC\\Cupones.BC.csproj": {
+    "C:\\Users\\DELL G5\\Desktop\\Proyecto 2\\Proyecto 2 api\\Cupones\\Cupones.BC\\Cupones.BC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL G5\\Desktop\\api proyecto 2\\Cupones\\Cupones.BC\\Cupones.BC.csproj",
+        "projectUniqueName": "C:\\Users\\DELL G5\\Desktop\\Proyecto 2\\Proyecto 2 api\\Cupones\\Cupones.BC\\Cupones.BC.csproj",
         "projectName": "Cupones.BC",
-        "projectPath": "C:\\Users\\DELL G5\\Desktop\\api proyecto 2\\Cupones\\Cupones.BC\\Cupones.BC.csproj",
+        "projectPath": "C:\\Users\\DELL G5\\Desktop\\Proyecto 2\\Proyecto 2 api\\Cupones\\Cupones.BC\\Cupones.BC.csproj",
         "packagesPath": "C:\\Users\\DELL G5\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL G5\\Desktop\\api proyecto 2\\Cupones\\Cupones.BC\\obj\\",
+        "outputPath": "C:\\Users\\DELL G5\\Desktop\\Proyecto 2\\Proyecto 2 api\\Cupones\\Cupones.BC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

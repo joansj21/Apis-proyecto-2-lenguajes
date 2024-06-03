@@ -9,5 +9,6 @@ namespace Cupones.BW.Interfaces.SG
     public interface IGestionarCuponesSG
     {
         Task<string> getAll();
+        Task<string> getcupon(int id);
     }
 }

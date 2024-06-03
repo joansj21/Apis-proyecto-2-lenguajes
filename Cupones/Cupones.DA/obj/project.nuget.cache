@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0pVdJ65w8r2A9435VB399Njan5upH6X+sOAOmtgX59l8Kkk4qBeyfM3EGT8tPu5K6utLyFZY2p1IB5SZ2CVxgg==",
+  "dgSpecHash": "up0Gsje0Tf/TFtYvCDT6OCl/Ie8JGhWSt4ysrOimnLVDHh+Chb5lyeJFeQiUlp4bNrYF6zCrZvr/ix9Gk5SKYQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DELL G5\\Desktop\\api proyecto 2\\Cupones\\Cupones.DA\\Cupones.DA.csproj",
+  "projectFilePath": "C:\\Users\\DELL G5\\Desktop\\Proyecto 2\\Proyecto 2 api\\Cupones\\Cupones.DA\\Cupones.DA.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL G5\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.6\\microsoft.entityframeworkcore.8.0.6.nupkg.sha512",
     "C:\\Users\\DELL G5\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.6\\microsoft.entityframeworkcore.abstractions.8.0.6.nupkg.sha512",

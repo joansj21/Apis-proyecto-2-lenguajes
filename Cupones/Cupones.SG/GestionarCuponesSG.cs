@@ -27,5 +27,17 @@ namespace Cupones.SG
 
             return await respuesta.Content.ReadAsStringAsync();
         }
+
+        public async Task<string> getcupon(int id)
+        {
+            Console.WriteLine(URLCuponesConstante.URL + $"?id={id}");
+
+            HttpResponseMessage respuesta = await clienteHttp.GetAsync(URLCuponesConstante.URL+ $"?id={id}");
+
+            if (!respuesta.IsSuccessStatusCode)
+                throw new HttpRequestException($"Error en {URLCuponesConstante.URL} al obtener el mensaje");
+
+            return await respuesta.Content.ReadAsStringAsync();
+        }
     }
 }

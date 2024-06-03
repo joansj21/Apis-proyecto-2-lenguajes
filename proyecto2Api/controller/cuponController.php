@@ -41,8 +41,9 @@ if ($_POST['METHOD'] == 'POST') {
         $fecha_expira = $_POST['fecha_expira'];
         $fecha_inicio = $_POST['fecha_inicio'];
         $empresa_id = $_POST['empresa_id']; // Añadir empresa_id en los datos enviados desde el frontend
+        $precio = $_POST['precio']; 
 
-        $cupon = new Cupon($nombre, $ubicacion, $activo, $categoria, $fecha_expira, $fecha_inicio, $empresa_id);
+        $cupon = new Cupon($nombre, $ubicacion, $activo, $categoria, $fecha_expira, $fecha_inicio, $empresa_id,$precio);
 
         $cuponBC = new CuponBC();
         $resultado = $cuponBC->insertCupon( $cupon);
@@ -71,9 +72,10 @@ if ($_POST['METHOD'] == 'PUT') {
          $fecha_inicio = $_POST['fecha_inicio'];
          $empresa_id = $_POST['empresa_id'];
          $categoria = $_POST['categoria'];
+         $precio = $_POST['precio']; 
         
 
-         $cupon = new Cupon($nombre, $ubicacion, $activo, $categoria, $fecha_expira, $fecha_inicio, $empresa_id);
+         $cupon = new Cupon($nombre, $ubicacion, $activo, $categoria, $fecha_expira, $fecha_inicio, $empresa_id,$precio);
 
          $cuponBC = new CuponBC();
          $resultado = $cuponBC->updateCupon( $cupon, $id);
