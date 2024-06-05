@@ -1,6 +1,8 @@
 using Cupones.BW.CU;
 using Cupones.BW.Interfaces.BW;
+using Cupones.BW.Interfaces.DA;
 using Cupones.BW.Interfaces.SG;
+using Cupones.DA.Acciones;
 using Cupones.DA.Contexto;
 using Cupones.SG;
 using Microsoft.EntityFrameworkCore;
@@ -27,6 +29,14 @@ builder.Services.AddTransient<IGestionarCuponesSG, GestionarCuponesSG>();
 builder.Services.AddTransient<IGestionarUserBW, GestionarUserBW>();
 builder.Services.AddTransient<IGestionarUserDA, GestionarUserDA>();
 
+//pago
+builder.Services.AddTransient<IGestionarPagoBW, GestionarPagoBW>();
+builder.Services.AddTransient<IGestionarPagoDA, GestionarPagoDA>();
+
+
+//Cupones Cliente
+builder.Services.AddTransient<IGestionarCuponClientBW, GestionarCuponClientBW>();
+builder.Services.AddTransient<IGestionarCuponClientDA, GestionarCuponClientDA>();
 builder.Services.AddDbContext<ProyectoCuponesContexts>(options =>
 {
     var connectionsString = "Data Source=JOAN;Initial Catalog=cliente_cupones;Integrated Security=True; TrustServerCertificate=True";

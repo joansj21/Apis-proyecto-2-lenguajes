@@ -10,5 +10,6 @@ namespace Cupones.BW.Interfaces.SG
     {
         Task<string> getAll();
         Task<string> getcupon(int id);
+        Task<string> getAllCategorias();
     }
 }

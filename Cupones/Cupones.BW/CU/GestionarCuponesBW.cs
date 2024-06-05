@@ -24,6 +24,11 @@ namespace Cupones.BW.CU
             return gestionarCuponesSG.getAll();
         }
 
+        public Task<string> getAllCategorias()
+        {
+            return gestionarCuponesSG.getAllCategorias();
+        }
+
         public  Task<string> getcupon(int id)
         {
             return gestionarCuponesSG.getcupon(id);

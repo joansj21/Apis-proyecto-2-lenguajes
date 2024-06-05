@@ -3,36 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\DELL G5\\Desktop\\Proyecto 2\\Proyecto 2 api\\Cupones\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CFB939D2-1983-4339-B331-35282F3505E6}|Cupones.api\\Cupones.api.csproj|c:\\users\\dell g5\\desktop\\proyecto 2\\proyecto 2 api\\cupones\\cupones.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFB939D2-1983-4339-B331-35282F3505E6}|Cupones.api\\Cupones.api.csproj|solutionrelative:cupones.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{94662929-00CD-4515-AC76-14BAF6CA14D4}|Cupones.BC\\Cupones.BC.csproj|c:\\users\\dell g5\\desktop\\proyecto 2\\proyecto 2 api\\cupones\\cupones.bc\\modelos\\cupon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94662929-00CD-4515-AC76-14BAF6CA14D4}|Cupones.BC\\Cupones.BC.csproj|solutionrelative:cupones.bc\\modelos\\cupon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BD619F2-E6A2-473C-A037-5931ED8993ED}|Cupones.DA\\Cupones.DA.csproj|c:\\users\\dell g5\\desktop\\proyecto 2\\proyecto 2 api\\cupones\\cupones.da\\acciones\\gestionaruserda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BD619F2-E6A2-473C-A037-5931ED8993ED}|Cupones.DA\\Cupones.DA.csproj|solutionrelative:cupones.da\\acciones\\gestionaruserda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7BD619F2-E6A2-473C-A037-5931ED8993ED}|Cupones.DA\\Cupones.DA.csproj|c:\\users\\dell g5\\desktop\\proyecto 2\\proyecto 2 api\\cupones\\cupones.da\\entidades\\cuponda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BD619F2-E6A2-473C-A037-5931ED8993ED}|Cupones.DA\\Cupones.DA.csproj|solutionrelative:cupones.da\\entidades\\cuponda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CFB939D2-1983-4339-B331-35282F3505E6}|Cupones.api\\Cupones.api.csproj|c:\\users\\dell g5\\desktop\\proyecto 2\\proyecto 2 api\\cupones\\cupones.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFB939D2-1983-4339-B331-35282F3505E6}|Cupones.api\\Cupones.api.csproj|solutionrelative:cupones.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7BD619F2-E6A2-473C-A037-5931ED8993ED}|Cupones.DA\\Cupones.DA.csproj|c:\\users\\dell g5\\desktop\\proyecto 2\\proyecto 2 api\\cupones\\cupones.da\\entidades\\promocionda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BD619F2-E6A2-473C-A037-5931ED8993ED}|Cupones.DA\\Cupones.DA.csproj|solutionrelative:cupones.da\\entidades\\promocionda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BD619F2-E6A2-473C-A037-5931ED8993ED}|Cupones.DA\\Cupones.DA.csproj|c:\\users\\dell g5\\desktop\\proyecto 2\\proyecto 2 api\\cupones\\cupones.da\\contexto\\proyectocuponescontexts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BD619F2-E6A2-473C-A037-5931ED8993ED}|Cupones.DA\\Cupones.DA.csproj|solutionrelative:cupones.da\\contexto\\proyectocuponescontexts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A212E464-F0A8-49E4-BB76-A4542F13B449}|Cupones.SG\\Cupones.SG.csproj|C:\\Users\\DELL G5\\Desktop\\Proyecto 2\\Proyecto 2 api\\Cupones\\cupones.sg\\gestionarcuponessg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A212E464-F0A8-49E4-BB76-A4542F13B449}|Cupones.SG\\Cupones.SG.csproj|solutionrelative:cupones.sg\\gestionarcuponessg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1201E058-3D56-474F-8495-92EE532C784B}|Cupones.BW\\Cupones.BW.csproj|C:\\Users\\DELL G5\\Desktop\\Proyecto 2\\Proyecto 2 api\\Cupones\\cupones.bw\\cu\\gestionarcuponesbw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1201E058-3D56-474F-8495-92EE532C784B}|Cupones.BW\\Cupones.BW.csproj|solutionrelative:cupones.bw\\cu\\gestionarcuponesbw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CFB939D2-1983-4339-B331-35282F3505E6}|Cupones.api\\Cupones.api.csproj|C:\\Users\\DELL G5\\Desktop\\Proyecto 2\\Proyecto 2 api\\Cupones\\cupones.api\\controllers\\cuponesempresacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFB939D2-1983-4339-B331-35282F3505E6}|Cupones.api\\Cupones.api.csproj|solutionrelative:cupones.api\\controllers\\cuponesempresacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94662929-00CD-4515-AC76-14BAF6CA14D4}|Cupones.BC\\Cupones.BC.csproj|C:\\Users\\DELL G5\\Desktop\\Proyecto 2\\Proyecto 2 api\\Cupones\\cupones.bc\\constantes\\urlcuponesconstante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94662929-00CD-4515-AC76-14BAF6CA14D4}|Cupones.BC\\Cupones.BC.csproj|solutionrelative:cupones.bc\\constantes\\urlcuponesconstante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7BD619F2-E6A2-473C-A037-5931ED8993ED}|Cupones.DA\\Cupones.DA.csproj|c:\\users\\dell g5\\desktop\\proyecto 2\\proyecto 2 api\\cupones\\cupones.da\\acciones\\gestionarcuponclientda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BD619F2-E6A2-473C-A037-5931ED8993ED}|Cupones.DA\\Cupones.DA.csproj|solutionrelative:cupones.da\\acciones\\gestionarcuponclientda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -45,111 +29,60 @@
           "SelectedChildIndex": 3,
           "Children": [
             {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CuponDA.cs",
+              "DocumentMoniker": "C:\\Users\\DELL G5\\Desktop\\Proyecto 2\\Proyecto 2 api\\Cupones\\Cupones.DA\\Entidades\\CuponDA.cs",
+              "RelativeDocumentMoniker": "Cupones.DA\\Entidades\\CuponDA.cs",
+              "ToolTip": "C:\\Users\\DELL G5\\Desktop\\Proyecto 2\\Proyecto 2 api\\Cupones\\Cupones.DA\\Entidades\\CuponDA.cs",
+              "RelativeToolTip": "Cupones.DA\\Entidades\\CuponDA.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAIwC4AAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T01:40:56.435Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GestionarUserDA.cs",
-              "DocumentMoniker": "C:\\Users\\DELL G5\\Desktop\\Proyecto 2\\Proyecto 2 api\\Cupones\\Cupones.DA\\Acciones\\GestionarUserDA.cs",
-              "RelativeDocumentMoniker": "Cupones.DA\\Acciones\\GestionarUserDA.cs",
-              "ToolTip": "C:\\Users\\DELL G5\\Desktop\\Proyecto 2\\Proyecto 2 api\\Cupones\\Cupones.DA\\Acciones\\GestionarUserDA.cs",
-              "RelativeToolTip": "Cupones.DA\\Acciones\\GestionarUserDA.cs",
-              "ViewState": "AQIAADEAAAAAAAAAAAAYwEwAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T19:59:16.352Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\DELL G5\\Desktop\\Proyecto 2\\Proyecto 2 api\\Cupones\\Cupones.api\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Cupones.api\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\DELL G5\\Desktop\\Proyecto 2\\Proyecto 2 api\\Cupones\\Cupones.api\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Cupones.api\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAIAAAA",
+              "Title": "PromocionDA.cs",
+              "DocumentMoniker": "C:\\Users\\DELL G5\\Desktop\\Proyecto 2\\Proyecto 2 api\\Cupones\\Cupones.DA\\Entidades\\PromocionDA.cs",
+              "RelativeDocumentMoniker": "Cupones.DA\\Entidades\\PromocionDA.cs",
+              "ToolTip": "C:\\Users\\DELL G5\\Desktop\\Proyecto 2\\Proyecto 2 api\\Cupones\\Cupones.DA\\Entidades\\PromocionDA.cs",
+              "RelativeToolTip": "Cupones.DA\\Entidades\\PromocionDA.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T19:58:23.237Z",
+              "WhenOpened": "2024-06-05T02:26:12.8Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\DELL G5\\Desktop\\Proyecto 2\\Proyecto 2 api\\Cupones\\Cupones.api\\Program.cs",
-              "RelativeDocumentMoniker": "Cupones.api\\Program.cs",
-              "ToolTip": "C:\\Users\\DELL G5\\Desktop\\Proyecto 2\\Proyecto 2 api\\Cupones\\Cupones.api\\Program.cs",
-              "RelativeToolTip": "Cupones.api\\Program.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAA/AAAA",
+              "Title": "Cupon.cs",
+              "DocumentMoniker": "C:\\Users\\DELL G5\\Desktop\\Proyecto 2\\Proyecto 2 api\\Cupones\\Cupones.BC\\Modelos\\Cupon.cs",
+              "RelativeDocumentMoniker": "Cupones.BC\\Modelos\\Cupon.cs",
+              "ToolTip": "C:\\Users\\DELL G5\\Desktop\\Proyecto 2\\Proyecto 2 api\\Cupones\\Cupones.BC\\Modelos\\Cupon.cs",
+              "RelativeToolTip": "Cupones.BC\\Modelos\\Cupon.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-01T04:33:37.912Z",
+              "WhenOpened": "2024-06-05T01:40:50.139Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ProyectoCuponesContexts.cs",
-              "DocumentMoniker": "C:\\Users\\DELL G5\\Desktop\\Proyecto 2\\Proyecto 2 api\\Cupones\\Cupones.DA\\Contexto\\ProyectoCuponesContexts.cs",
-              "RelativeDocumentMoniker": "Cupones.DA\\Contexto\\ProyectoCuponesContexts.cs",
-              "ToolTip": "C:\\Users\\DELL G5\\Desktop\\Proyecto 2\\Proyecto 2 api\\Cupones\\Cupones.DA\\Contexto\\ProyectoCuponesContexts.cs",
-              "RelativeToolTip": "Cupones.DA\\Contexto\\ProyectoCuponesContexts.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Title": "GestionarCuponClientDA.cs",
+              "DocumentMoniker": "C:\\Users\\DELL G5\\Desktop\\Proyecto 2\\Proyecto 2 api\\Cupones\\Cupones.DA\\Acciones\\GestionarCuponClientDA.cs",
+              "RelativeDocumentMoniker": "Cupones.DA\\Acciones\\GestionarCuponClientDA.cs",
+              "ToolTip": "C:\\Users\\DELL G5\\Desktop\\Proyecto 2\\Proyecto 2 api\\Cupones\\Cupones.DA\\Acciones\\GestionarCuponClientDA.cs",
+              "RelativeToolTip": "Cupones.DA\\Acciones\\GestionarCuponClientDA.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAQwBgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T19:51:08.296Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CuponesEmpresaController.cs",
-              "DocumentMoniker": "C:\\Users\\DELL G5\\Desktop\\Proyecto 2\\Proyecto 2 api\\Cupones\\Cupones.api\\Controllers\\CuponesEmpresaController.cs",
-              "RelativeDocumentMoniker": "Cupones.api\\Controllers\\CuponesEmpresaController.cs",
-              "ToolTip": "C:\\Users\\DELL G5\\Desktop\\Proyecto 2\\Proyecto 2 api\\Cupones\\Cupones.api\\Controllers\\CuponesEmpresaController.cs",
-              "RelativeToolTip": "Cupones.api\\Controllers\\CuponesEmpresaController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-01T03:33:40.397Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GestionarCuponesBW.cs",
-              "DocumentMoniker": "C:\\Users\\DELL G5\\Desktop\\Proyecto 2\\Proyecto 2 api\\Cupones\\Cupones.BW\\CU\\GestionarCuponesBW.cs",
-              "RelativeDocumentMoniker": "Cupones.BW\\CU\\GestionarCuponesBW.cs",
-              "ToolTip": "C:\\Users\\DELL G5\\Desktop\\Proyecto 2\\Proyecto 2 api\\Cupones\\Cupones.BW\\CU\\GestionarCuponesBW.cs",
-              "RelativeToolTip": "Cupones.BW\\CU\\GestionarCuponesBW.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-01T03:32:32.863Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GestionarCuponesSG.cs",
-              "DocumentMoniker": "C:\\Users\\DELL G5\\Desktop\\Proyecto 2\\Proyecto 2 api\\Cupones\\Cupones.SG\\GestionarCuponesSG.cs",
-              "RelativeDocumentMoniker": "Cupones.SG\\GestionarCuponesSG.cs",
-              "ToolTip": "C:\\Users\\DELL G5\\Desktop\\Proyecto 2\\Proyecto 2 api\\Cupones\\Cupones.SG\\GestionarCuponesSG.cs",
-              "RelativeToolTip": "Cupones.SG\\GestionarCuponesSG.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwB8AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-01T03:31:06.111Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "URLCuponesConstante.cs",
-              "DocumentMoniker": "C:\\Users\\DELL G5\\Desktop\\Proyecto 2\\Proyecto 2 api\\Cupones\\Cupones.BC\\Constantes\\URLCuponesConstante.cs",
-              "RelativeDocumentMoniker": "Cupones.BC\\Constantes\\URLCuponesConstante.cs",
-              "ToolTip": "C:\\Users\\DELL G5\\Desktop\\Proyecto 2\\Proyecto 2 api\\Cupones\\Cupones.BC\\Constantes\\URLCuponesConstante.cs",
-              "RelativeToolTip": "Cupones.BC\\Constantes\\URLCuponesConstante.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABpAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T00:45:13.146Z",
+              "WhenOpened": "2024-06-05T01:35:27.274Z",
               "EditorCaption": ""
             }
           ]

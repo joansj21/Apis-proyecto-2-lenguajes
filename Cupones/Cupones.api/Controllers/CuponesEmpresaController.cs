@@ -17,7 +17,7 @@ namespace Cupones.api.Controllers
         }
         [HttpGet]
 
-        public Task<string> ObtenerTodosLosPersonajes()
+        public Task<string> ObtenerTodosLosCupones()
         {
 
             return gestionarCuponesBW.getAll();
@@ -26,10 +26,16 @@ namespace Cupones.api.Controllers
 
         [HttpGet("{id}")]
 
-        public Task<string> ObtenerTodosLosPersonajes(int id)
+        public Task<string> ObtenerCupon(int id)
         {
 
             return gestionarCuponesBW.getcupon(id);
+        }
+
+        [HttpGet("categorias")]
+        public Task<string> ObtenerCategoria()
+        {
+            return gestionarCuponesBW.getAllCategorias();
         }
     }
 }
