@@ -20,6 +20,8 @@ class EmpresaBC {
     }
 
     public function addEmpresa($empresa) {
+        echo json_encode($empresa);
+
         $empresaDA = new EmpresaDA();
         return $empresaDA->addEmpresa($empresa);
      

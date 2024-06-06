@@ -8,9 +8,9 @@ class Empresa {
     public $telefono;
     public $contraseña;
     public $temporal;
+    public $activo;
 
-
-    public function __construct($id, $nombre, $cedula, $direccion, $fecha_creacion, $telefono, $contraseña, $temporal) {
+    public function __construct($id = null, $nombre = null, $cedula = null, $direccion = null, $fecha_creacion = null, $telefono = null, $contraseña = null, $temporal = null, $activo = null) {
         $this->id = $id;
         $this->nombre = $nombre;
         $this->cedula = $cedula;
@@ -19,6 +19,7 @@ class Empresa {
         $this->telefono = $telefono;
         $this->contraseña = $contraseña;
         $this->temporal = $temporal;
+        $this->activo = $activo;
     }
 
    
