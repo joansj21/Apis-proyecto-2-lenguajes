@@ -1,6 +1,6 @@
 <?php
 class Empresa {
-
+    public $id;
     public $nombre;
     public $cedula;
     public $direccion;
@@ -10,7 +10,8 @@ class Empresa {
     public $temporal;
 
 
-    public function __construct($nombre, $cedula, $direccion, $fecha_creacion, $telefono, $contraseña, $temporal) {
+    public function __construct($id, $nombre, $cedula, $direccion, $fecha_creacion, $telefono, $contraseña, $temporal) {
+        $this->id = $id;
         $this->nombre = $nombre;
         $this->cedula = $cedula;
         $this->direccion = $direccion;

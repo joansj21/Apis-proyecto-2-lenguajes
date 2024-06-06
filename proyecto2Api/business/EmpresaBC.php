@@ -13,6 +13,17 @@ class EmpresaBC {
         $empresaDA = new EmpresaDA();
         return $empresaDA->updateEmpresa($empresa,$id);
     }
+  
+    public function getEmpresa($id) {
+        $empresaDA = new EmpresaDA();
+        return $empresaDA->getEmpresa($id);
+    }
+
+    public function addEmpresa($empresa) {
+        $empresaDA = new EmpresaDA();
+        return $empresaDA->addEmpresa($empresa);
+     
+    }
 
 
 }
