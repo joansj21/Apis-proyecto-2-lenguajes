@@ -10,8 +10,4 @@
     <ProjectReference Include="..\Cupones.BC\Cupones.BC.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Interfaces\DA\" />
-  </ItemGroup>
-
 </Project>

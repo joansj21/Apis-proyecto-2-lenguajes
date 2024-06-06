@@ -14,9 +14,4 @@
     <ProjectReference Include="..\Cupones.BW\Cupones.BW.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Acciones\" />
-    <Folder Include="Contexto\" />
-  </ItemGroup>
-
 </Project>

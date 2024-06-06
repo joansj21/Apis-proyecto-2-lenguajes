@@ -15,3 +15,21 @@ C:\Users\DELL G5\Desktop\api proyecto 2\Cupones\Cupones.SG\obj\Debug\net8.0\Cupo
 C:\Users\DELL G5\Desktop\api proyecto 2\Cupones\Cupones.SG\obj\Debug\net8.0\refint\Cupones.SG.dll
 C:\Users\DELL G5\Desktop\api proyecto 2\Cupones\Cupones.SG\obj\Debug\net8.0\Cupones.SG.pdb
 C:\Users\DELL G5\Desktop\api proyecto 2\Cupones\Cupones.SG\obj\Debug\net8.0\ref\Cupones.SG.dll
+C:\Users\DELL G5\Desktop\Proyecto 2\Proyecto 2 api\Cupones\Cupones.SG\bin\Debug\net8.0\Cupones.SG.deps.json
+C:\Users\DELL G5\Desktop\Proyecto 2\Proyecto 2 api\Cupones\Cupones.SG\bin\Debug\net8.0\Cupones.SG.dll
+C:\Users\DELL G5\Desktop\Proyecto 2\Proyecto 2 api\Cupones\Cupones.SG\bin\Debug\net8.0\Cupones.SG.pdb
+C:\Users\DELL G5\Desktop\Proyecto 2\Proyecto 2 api\Cupones\Cupones.SG\bin\Debug\net8.0\Cupones.BC.dll
+C:\Users\DELL G5\Desktop\Proyecto 2\Proyecto 2 api\Cupones\Cupones.SG\bin\Debug\net8.0\Cupones.BW.dll
+C:\Users\DELL G5\Desktop\Proyecto 2\Proyecto 2 api\Cupones\Cupones.SG\bin\Debug\net8.0\Cupones.BC.pdb
+C:\Users\DELL G5\Desktop\Proyecto 2\Proyecto 2 api\Cupones\Cupones.SG\bin\Debug\net8.0\Cupones.BW.pdb
+C:\Users\DELL G5\Desktop\Proyecto 2\Proyecto 2 api\Cupones\Cupones.SG\obj\Debug\net8.0\Cupones.SG.csproj.AssemblyReference.cache
+C:\Users\DELL G5\Desktop\Proyecto 2\Proyecto 2 api\Cupones\Cupones.SG\obj\Debug\net8.0\Cupones.SG.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL G5\Desktop\Proyecto 2\Proyecto 2 api\Cupones\Cupones.SG\obj\Debug\net8.0\Cupones.SG.AssemblyInfoInputs.cache
+C:\Users\DELL G5\Desktop\Proyecto 2\Proyecto 2 api\Cupones\Cupones.SG\obj\Debug\net8.0\Cupones.SG.AssemblyInfo.cs
+C:\Users\DELL G5\Desktop\Proyecto 2\Proyecto 2 api\Cupones\Cupones.SG\obj\Debug\net8.0\Cupones.SG.csproj.CoreCompileInputs.cache
+C:\Users\DELL G5\Desktop\Proyecto 2\Proyecto 2 api\Cupones\Cupones.SG\obj\Debug\net8.0\Cupones.SG.sourcelink.json
+C:\Users\DELL G5\Desktop\Proyecto 2\Proyecto 2 api\Cupones\Cupones.SG\obj\Debug\net8.0\Cupones.SG.csproj.Up2Date
+C:\Users\DELL G5\Desktop\Proyecto 2\Proyecto 2 api\Cupones\Cupones.SG\obj\Debug\net8.0\Cupones.SG.dll
+C:\Users\DELL G5\Desktop\Proyecto 2\Proyecto 2 api\Cupones\Cupones.SG\obj\Debug\net8.0\refint\Cupones.SG.dll
+C:\Users\DELL G5\Desktop\Proyecto 2\Proyecto 2 api\Cupones\Cupones.SG\obj\Debug\net8.0\Cupones.SG.pdb
+C:\Users\DELL G5\Desktop\Proyecto 2\Proyecto 2 api\Cupones\Cupones.SG\obj\Debug\net8.0\ref\Cupones.SG.dll

@@ -9,3 +9,15 @@ C:\Users\DELL G5\Desktop\api proyecto 2\Cupones\Cupones.BC\obj\Debug\net8.0\Cupo
 C:\Users\DELL G5\Desktop\api proyecto 2\Cupones\Cupones.BC\obj\Debug\net8.0\refint\Cupones.BC.dll
 C:\Users\DELL G5\Desktop\api proyecto 2\Cupones\Cupones.BC\obj\Debug\net8.0\Cupones.BC.pdb
 C:\Users\DELL G5\Desktop\api proyecto 2\Cupones\Cupones.BC\obj\Debug\net8.0\ref\Cupones.BC.dll
+C:\Users\DELL G5\Desktop\Proyecto 2\Proyecto 2 api\Cupones\Cupones.BC\bin\Debug\net8.0\Cupones.BC.deps.json
+C:\Users\DELL G5\Desktop\Proyecto 2\Proyecto 2 api\Cupones\Cupones.BC\bin\Debug\net8.0\Cupones.BC.dll
+C:\Users\DELL G5\Desktop\Proyecto 2\Proyecto 2 api\Cupones\Cupones.BC\bin\Debug\net8.0\Cupones.BC.pdb
+C:\Users\DELL G5\Desktop\Proyecto 2\Proyecto 2 api\Cupones\Cupones.BC\obj\Debug\net8.0\Cupones.BC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL G5\Desktop\Proyecto 2\Proyecto 2 api\Cupones\Cupones.BC\obj\Debug\net8.0\Cupones.BC.AssemblyInfoInputs.cache
+C:\Users\DELL G5\Desktop\Proyecto 2\Proyecto 2 api\Cupones\Cupones.BC\obj\Debug\net8.0\Cupones.BC.AssemblyInfo.cs
+C:\Users\DELL G5\Desktop\Proyecto 2\Proyecto 2 api\Cupones\Cupones.BC\obj\Debug\net8.0\Cupones.BC.csproj.CoreCompileInputs.cache
+C:\Users\DELL G5\Desktop\Proyecto 2\Proyecto 2 api\Cupones\Cupones.BC\obj\Debug\net8.0\Cupones.BC.sourcelink.json
+C:\Users\DELL G5\Desktop\Proyecto 2\Proyecto 2 api\Cupones\Cupones.BC\obj\Debug\net8.0\Cupones.BC.dll
+C:\Users\DELL G5\Desktop\Proyecto 2\Proyecto 2 api\Cupones\Cupones.BC\obj\Debug\net8.0\refint\Cupones.BC.dll
+C:\Users\DELL G5\Desktop\Proyecto 2\Proyecto 2 api\Cupones\Cupones.BC\obj\Debug\net8.0\Cupones.BC.pdb
+C:\Users\DELL G5\Desktop\Proyecto 2\Proyecto 2 api\Cupones\Cupones.BC\obj\Debug\net8.0\ref\Cupones.BC.dll

@@ -24,9 +24,10 @@ class CuponDA {
         $activo = $cupon->activo;
         $categoria = $cupon->categoria;
         $empresa_id = $cupon->empresa_id;
+        $precio = $cupon->precio;
     
        
-        $query = "INSERT INTO cupones(nombre, ubicacion, fecha_expira,fecha_inicio,activo,categoria,empresa_id) VALUES ('$nombre', '$ubicacion','$fecha_expira','$fecha_inicio','$activo','$categoria', '$empresa_id')";
+        $query = "INSERT INTO cupones(nombre, ubicacion, fecha_expira,fecha_inicio,activo,categoria,empresa_id,precio) VALUES ('$nombre', '$ubicacion','$fecha_expira','$fecha_inicio','$activo','$categoria', '$empresa_id','$precio')";
         $queryAutoIncrement = "SELECT MAX(id) as id FROM cupones";
 
         return $resultado = metodoPost($query, $queryAutoIncrement);
@@ -41,9 +42,11 @@ class CuponDA {
         $activo = $cupon->activo;
         $categoria = $cupon->categoria;
         $empresa_id = $cupon->empresa_id;
+        $precio = $cupon->precio;
     
        
-        $query = "UPDATE cupones SET nombre='$nombre', ubicacion='$ubicacion', fecha_expira='$fecha_expira',fecha_inicio='$fecha_inicio', activo='$activo',categoria='$categoria' ,empresa_id='$empresa_id' WHERE id='$id'";
+        $query = "UPDATE cupones SET nombre='$nombre', ubicacion='$ubicacion', fecha_expira='$fecha_expira',fecha_inicio='$fecha_inicio', activo='$activo',categoria='$categoria' ,empresa_id='$empresa_id',precio='$precio' WHERE id='$id'";
+       
         return $resultado = metodoPut($query, $queryAutoIncrement);
     }
 
