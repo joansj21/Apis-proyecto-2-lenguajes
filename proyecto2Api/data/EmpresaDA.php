@@ -7,7 +7,7 @@ class EmpresaDA {
 
     public function login($correo) {
 
-        $query = "SELECT * FROM empresas WHERE correo='$correo'";
+        $query = "SELECT * FROM empresas WHERE correo='$correo' and activo = 1";
         
         return metodoGet($query);
     }
