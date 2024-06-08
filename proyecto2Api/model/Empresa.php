@@ -1,6 +1,5 @@
 <?php
 class Empresa {
-    public $id;
     public $nombre;
     public $cedula;
     public $direccion;
@@ -8,10 +7,10 @@ class Empresa {
     public $telefono;
     public $contraseña;
     public $temporal;
-    public $activo;
+    public $correo;
 
-    public function __construct($id = null, $nombre = null, $cedula = null, $direccion = null, $fecha_creacion = null, $telefono = null, $contraseña = null, $temporal = null, $activo = null) {
-        $this->id = $id;
+
+    public function __construct($nombre, $cedula, $direccion, $fecha_creacion, $telefono, $contraseña, $temporal,$correo) {
         $this->nombre = $nombre;
         $this->cedula = $cedula;
         $this->direccion = $direccion;
@@ -19,13 +18,7 @@ class Empresa {
         $this->telefono = $telefono;
         $this->contraseña = $contraseña;
         $this->temporal = $temporal;
-        $this->activo = $activo;
+        $this->correo = $correo;
     }
-
-   
-
-    // Constructor para inicializar las propiedades
-
-
 }
 ?>

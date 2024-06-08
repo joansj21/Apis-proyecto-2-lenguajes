@@ -18,15 +18,15 @@ class EmpresaBC {
         $empresaDA = new EmpresaDA();
         return $empresaDA->getEmpresa($id);
     }
-
     public function addEmpresa($empresa) {
-        echo json_encode($empresa);
-
         $empresaDA = new EmpresaDA();
-        return $empresaDA->addEmpresa($empresa);
-     
+
+        
+        return $empresaDA->insertEmpresa($empresa);
     }
-
-
+    public function getAllEmpresas() {
+        $empresaDA = new EmpresaDA();
+        return $empresaDA->getAllmpresas();
+    }
 }
 ?>

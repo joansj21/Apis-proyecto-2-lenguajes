@@ -7,20 +7,17 @@ require_once '../model/Empresa.php';
 header('Access-Control-Allow-Origin: *');
 
 
-/*if ($_SERVER['REQUEST_METHOD'] == 'GET') {
-    if (isset($_GET['id'])) {
-        $query = "SELECT * FROM cupones WHERE id=" . $_GET['id'];
-        $resultado = metodoGet($query);
-        echo json_encode($resultado->fetch(PDO::FETCH_ASSOC));
+if ($_SERVER['REQUEST_METHOD'] == 'GET') {
+    if (isset($_GET['allEmpresas'])) {
+        $empresaBC = new EmpresaBC();
+        $resultado = $empresaBC->getAllEmpresas();
+        echo json_encode($resultado->fetchAll(PDO::FETCH_ASSOC));
+        header("HTTP/1.1 200 OK");
     } else {
-        $query = "SELECT * FROM cupones";
-        $resultado = metodoGet($query);
-        echo json_encode($resultado->fetchAll());
+        header("HTTP/1.1 400 Bad Request");
     }
-    header("HTTP/1.1 200 OK");
     exit();
-}*/
-
+}
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     if (isset($_POST['login'])) {
@@ -48,42 +45,47 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             header("HTTP/1.1 401 Unauthorized");
         }
         exit();
-    }else{
-
-        if (isset($_POST['registrar'])) {
-            unset($_POST['METHOD']);
-            // Actualizar datos de la empresa
-            echo json_encode("entro");
-
-            $nombre = $_POST['nombre'] ;
-            $cedula = $_POST['cedula'] ;
-            $direccion = $_POST['direccion'] ;
-            $fecha_creacion = $_POST['fecha_creacion'];
-            $telefono = $_POST['telefono'] ;
-            // Creación de la instancia de Empresa utilizando el nuevo constructor
-            $empresa = new Empresa(null, $nombre, $cedula, $direccion, $fecha_creacion, $telefono, null, true, true);
-            
-    
-            $empresaBC = new EmpresaBC();
-            
-            
-          
-            $resultado =$empresaBC->addEmpresa($empresa);
-    
-            
-            echo json_encode($resultado);
-            
-    
-    
-            header("HTTP/1.1 200 OK");
-            exit();
-            } else {
-                echo json_encode(array("message" => false));
-                header("HTTP/1.1 401 Unauthorized");
-            }
-
     }
 }
+
+
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    if ($_POST['registrar']) {
+        $nombre = $_POST['nombre'];
+        $cedula = $_POST['cedula'];
+        $direccion = $_POST['direccion'];
+        $fecha_creacion = $_POST['fecha_creacion'];
+        $correo = $_POST['correo'];
+        $telefono = $_POST['telefono'];
+        $contraseña = $_POST['contraseña'];
+
+        if (!$nombre || !$cedula || !$direccion || !$fecha_creacion || !$correo || !$telefono || !$contraseña) {
+            echo json_encode(array("message" => "Missing fields"));
+            header("HTTP/1.1 400 Bad Request");
+            exit();
+        }
+
+        $empresa = new Empresa(null, $nombre, $cedula, $direccion, $fecha_creacion, $correo, $telefono, $contraseña, true, true);
+
+        $empresaBC = new EmpresaBC();
+        $resultado = $empresaBC->addEmpresa($empresa);
+
+        if ($resultado) {
+            echo json_encode(array("id" => $resultado));
+            header("HTTP/1.1 200 OK");
+            exit();
+        } else {
+            echo json_encode(array("message" => false));
+            header("HTTP/1.1 401 Unauthorized");
+            exit();
+        }
+    } else {
+        echo json_encode(array("message" => false, "reason" => "registrar not set"));
+        header("HTTP/1.1 400 Bad Request");
+        exit();
+    }
+}
+
 
 
 
