@@ -42,7 +42,7 @@ function validarContraseña($contraseña) {
 function validarCampos(Empresa $empresa) {
     $mensajeError = "";
 
-    if (!validarLongitud($empresa->nombre, 200)) {
+    if (!validarLongitud($empresa->nombre, 30)) {
         $mensajeError .= 'El nombre debe tener 200 caracteres o menos. ';
     }
     if (!validarLongitud($empresa->direccion, 200)) {
@@ -71,7 +71,7 @@ function validarCampos(Empresa $empresa) {
 function validarCamposInsert(Empresa $empresa) {
     $mensajeError = "";
 
-    if (!validarLongitud($empresa->nombre, 200)) {
+    if (!validarLongitud($empresa->nombre, 20)) {
         $mensajeError .= 'El nombre debe tener 200 caracteres o menos. ';
     }
     if (!validarLongitud($empresa->direccion, 200)) {

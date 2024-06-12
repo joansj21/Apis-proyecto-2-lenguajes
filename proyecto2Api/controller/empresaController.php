@@ -49,7 +49,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 }
 
 
-if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+if ($_POST['METHOD']  == 'POST') {
     if ($_POST['registrar']) {
         $nombre = $_POST['nombre'];
         $cedula = $_POST['cedula'];
@@ -89,7 +89,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 
 
-if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+if ($_POST['METHOD'] == 'PUT') {
     
     
     if (isset($_POST['empresa'])) {

@@ -88,16 +88,17 @@ function metodoPostImg($url, $idCupon){
 
 
 
-function metodoPut($query) {
-    try {
+function metodoPut($query){
+    try{
         conectar();
-        $sentencia = $GLOBALS['pdo']->prepare($query);
-        $resultado = $sentencia->execute();
+        $sentencia=$GLOBALS['pdo']->prepare($query);
+        $sentencia->execute();
+        $resultado=array_merge($_GET, $_POST);
         $sentencia->closeCursor();
         desconectar();
-        return $resultado; // Devuelve true en caso de éxito, false en caso de error
-    } catch (Exception $e) {
-        die("Error: " . $e);
+        return $resultado;
+    }catch(Exception $e){
+        die("Error: ".$e);
     }
 }
 

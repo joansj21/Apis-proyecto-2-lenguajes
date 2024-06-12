@@ -49,11 +49,11 @@ class EmpresaDA {
         $correo = $empresa->getCorreo();
         $telefono = $empresa->getTelefono();
         $contraseña = $empresa->getContraseña();
-        $clave_temporal = $empresa->getClaveTemporal();
+       
         $activo = $empresa->getActivo();
     
-        $query = "INSERT INTO empresas(nombre, cedula, direccion, fecha_creacion, correo, telefono, contraseña, clave_temporal, activo) 
-                  VALUES ('$nombre', '$cedula', '$direccion', '$fecha_creacion', '$correo', '$telefono', '$contraseña', '$clave_temporal', '$activo')";
+        $query = "INSERT INTO empresas(nombre, cedula, direccion, fecha_creacion, correo, telefono, contraseña, activo) 
+                  VALUES ('$nombre', '$cedula', '$direccion', '$fecha_creacion', '$correo', '$telefono', '$contraseña', '$activo')";
         $queryAutoIncrement = "SELECT MAX(id) as id FROM empresas";
     
         return metodoPost($query, $queryAutoIncrement);
