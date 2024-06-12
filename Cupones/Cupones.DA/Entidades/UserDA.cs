@@ -21,8 +21,8 @@ public class UserDA
         [Required, MaxLength(50)]
         public string LastName { get; set; }
 
-        [Required]
-        public DateTime DateOfBirth { get; set; }
+        [Required, MaxLength(50)]
+        public string DateOfBirth { get; set; }
 
         [Required, MaxLength(100)]
         public string Email { get; set; }
