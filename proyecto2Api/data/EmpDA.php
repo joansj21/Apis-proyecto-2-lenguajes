@@ -15,6 +15,7 @@ class empDA {
         $temporal=$empresa->temporal;
 
       $query = "UPDATE empresas SET cedula='$cedula', direccion='$direccion', fecha_creacion='$fecha_creacion', clave_temporal='$temporal',nombre='$nombre', telefono='$telefono', contraseña='$contraseña' WHERE id='$id'";
+      $queryAutoIncrement = "SELECT MAX(id) as id FROM empresas";
         
         return $resultado = metodoPut($query, $queryAutoIncrement);
     }
