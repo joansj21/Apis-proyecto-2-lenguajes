@@ -12,6 +12,7 @@ function validarCedula($cedula) {
     return $fisica || $juridica;
 }
 
+
 // Validar formato de fecha
 function validarFecha($fecha) {
     $d = DateTime::createFromFormat('d/m/Y', $fecha);
