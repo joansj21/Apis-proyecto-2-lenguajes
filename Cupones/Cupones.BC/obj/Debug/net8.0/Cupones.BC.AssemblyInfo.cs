@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Cupones.BC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+634242721de78bf7608a03acc546d96461703f0d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bebdeb8ea0eadedb185a41243191fea21a84e0cb")]
 [assembly: System.Reflection.AssemblyProductAttribute("Cupones.BC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Cupones.BC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

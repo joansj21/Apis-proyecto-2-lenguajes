@@ -8,8 +8,7 @@ header('Access-Control-Allow-Origin: *');
 
 if ($_SERVER['REQUEST_METHOD'] == 'GET') {
    
-        
-        
+    
 
         $categoriasBC = new CategoriasBC();
         $resultado = $categoriasBC->getAllCategorias();

@@ -14,5 +14,6 @@ namespace Tarea4.BC.Modelos
         public DateTime DateOfBirth { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
+        public string Cedula { get; set; }
     }
 }

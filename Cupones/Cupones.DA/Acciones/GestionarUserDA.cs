@@ -68,6 +68,7 @@ namespace Tarea4.DA.Acciones
                 DateOfBirth = user.DateOfBirth,
                 FirstName = user.FirstName,
                 LastName = user.LastName,
+                Cedula = user.Cedula,
 
             };
 

@@ -18,6 +18,12 @@ namespace Cupones.BW.CU
         public GestionarPagoBW(IGestionarPagoDA gestionarPagoDA) {
             this.gestionarPagoDA = gestionarPagoDA;
                 }
+
+        public async Task<IEnumerable<Pago>> getUSerPago(int idUser)
+        {
+            return await this.gestionarPagoDA.getUSerPago(idUser);
+        }
+
         public async Task<Pago> insertPago(Pago pago)
         {
             (bool esValido, string mensaje) validacionReglaDeUser = ReglasDePago.ElPagoEsValido(pago);

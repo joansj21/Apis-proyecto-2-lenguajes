@@ -12,6 +12,6 @@ namespace Cupones.BW.Interfaces.DA
     {
         Task<bool> RegisterCupon(Cupon cupon,Promocion[] promociones);
 
-        Task<IEnumerable<Cupon>> getUSerCupon(int idUser);
+        Task<IEnumerable<Cupon>> getUSerCupon(int idUser, int pago);
     }
 }

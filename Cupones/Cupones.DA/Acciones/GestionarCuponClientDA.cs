@@ -24,12 +24,12 @@ namespace Cupones.DA.Acciones
         }
 
       
-        public async Task<IEnumerable<Cupon>> getUSerCupon(int idUser)
+        public async Task<IEnumerable<Cupon>> getUSerCupon(int idUser,int pago)
         {
             var cuponesDA = await _context.Cupones
-                .Include(c => c.Promociones) // Incluye las promociones asociadas a los cupones
-                .Where(c => c.idUser == idUser)
-                .ToListAsync();
+      .Include(c => c.Promociones)
+      .Where(c => c.idUser == idUser && c.PagoID == pago) // Filtra por ID de usuario y ID de pago
+      .ToListAsync();
 
             var cupones = cuponesDA.Select(c => new Cupon
             {

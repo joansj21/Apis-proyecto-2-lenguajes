@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Cupones.BW\Cupones.BW.csproj" />
+    <ProjectReference Include="..\Cupones.SG\Cupones.SG.csproj" />
   </ItemGroup>
 
 </Project>
