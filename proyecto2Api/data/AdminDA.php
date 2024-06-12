@@ -12,11 +12,11 @@ class AdminDA {
     
     public function loginAdmin($correo, $contrasena) {
         try {
-
-            $query = "CALL LoginAdmin('$correo', '$contrasena')";
-
-           
-          return metodoGet($query);
+            // Usar comillas simples alrededor de los valores de correo y contraseña
+            $query = "SELECT * FROM administradores WHERE correo = '$correo' AND contraseña = '$contrasena'";
+    
+            // Ejecutar la consulta utilizando el método apropiado
+            return metodoGet($query);
             // Si la autenticación es exitosa, devolver los datos del administrador
     
         } catch (PDOException $e) {
@@ -24,6 +24,7 @@ class AdminDA {
             return ['error' => $e->getMessage()];
         }
     }
+    
 
 
 
