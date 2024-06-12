@@ -4,7 +4,16 @@ include '../bd/BD.php';
 include '../business/empBC.php';
 require_once '../model/Empresa.php';
 
-header('Access-Control-Allow-Origin: *');
+// Habilitar CORS
+header("Access-Control-Allow-Origin: *");
+header("Access-Control-Allow-Methods: PUT, GET, POST, DELETE, OPTIONS");
+header("Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With");
+
+if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
+    header("HTTP/1.1 200 OK");
+    exit();
+}
+
 
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
@@ -93,18 +102,43 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
 }
 
 if ($_SERVER['REQUEST_METHOD'] == 'PUT') {
-    if (isset($_GET['id'])) {
-        $id = $_GET['id'];
-        $activo = $_GET['activo'];
+    // Parsear el cuerpo de la solicitud PUT para obtener los parámetros
+    parse_str(file_get_contents("php://input"), $_PUT);
+
+    if (isset($_PUT['id']) && isset($_PUT['activo'])) {
+        $id = $_PUT['id'];
+        $activo = $_PUT['activo'];
         $empresaBC = new empBC();
-        $resultado = $empresaBC->updateEstado($id, $activo);
-        echo json_encode($resultado->fetch(PDO::FETCH_ASSOC));
-        header("HTTP/1.1 200 OK");
+
+        try {
+            $resultado = $empresaBC->updateEstado($id, $activo);
+
+            if ($resultado) {
+                header("Content-Type: application/json");
+                header("HTTP/1.1 200 OK");
+                echo json_encode(["message" => "Estado actualizado correctamente"]);
+            } else {
+                header("Content-Type: application/json");
+                header("HTTP/1.1 404 Not Found");
+                echo json_encode(["error" => "No se pudo actualizar el estado"]);
+            }
+        } catch (Exception $e) {
+            header("Content-Type: application/json");
+            header("HTTP/1.1 500 Internal Server Error");
+            echo json_encode(["error" => $e->getMessage()]);
+        }
     } else {
+        header("Content-Type: application/json");
         header("HTTP/1.1 400 Bad Request");
+        echo json_encode(["error" => "Parámetros inválidos"]);
     }
     exit();
 }
+
+
+
+
+
 
 
 header("HTTP/1.1 400 Bad Request");

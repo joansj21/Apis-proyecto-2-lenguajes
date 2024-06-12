@@ -43,7 +43,11 @@ class empBC {
         return $empresaDA->getAllmpresas();
     }
 
-
+    public function updateEstado($id, $activo)
+    {
+        $empresaDA = new empDA();
+        return $empresaDA->updateEstado($id, $activo);
+    }
 
 }
 ?>
