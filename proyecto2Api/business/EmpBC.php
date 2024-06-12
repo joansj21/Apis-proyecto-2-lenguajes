@@ -1,13 +1,12 @@
 <?php
-require_once '../data/EmpDA.php';
+require_once '../data/empDA.php';
 require_once '../model/Empresa.php';
 include '../business/validation/validationEmpresa.php';
 
-class EmpBC {
+class empBC {
 
-   
 
-    public function addEmpresa($empresa) {
+    public function updateEmpresa($empresa, $id) {
        // Validar los campos
     $mensajeError = validarCampos($empresa);
 
@@ -17,16 +16,37 @@ class EmpBC {
     }
 
     // Si no hay errores, proceder con la actualización
-    $empresaDA = new EmpDA();
+    $empresaDA = new empDA();
     return $empresaDA->updateEmpresa($empresa, $id);
 
 
     }
 
 
-   public function getAllEmpresas() {
-        $empresaDA = new EmpDA();
-        return $empresaDA->getAllEmpresas();
+    public function insertEmpresa($empresa) {
+        // Validar los campos
+     $mensajeError = validarCamposInsert($empresa);
+ 
+     // Si hay un mensaje de error, devolverlo
+     if ($mensajeError !== "") {
+         return ['error' => $mensajeError];
+     }
+ 
+     // Si no hay errores, proceder con la actualización
+     $empresaDA = new empDA();
+     return $empresaDA->insertEmpresa($empresa);
+ 
+ 
+     }
+     public function getAllEmpresas() {
+        $empresaDA = new empDA();
+        return $empresaDA->getAllmpresas();
+    }
+
+    public function updateEstado($id, $activo)
+    {
+        $empresaDA = new empDA();
+        return $empresaDA->updateEstado($id, $activo);
     }
 
 }

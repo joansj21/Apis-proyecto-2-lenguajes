@@ -23,7 +23,11 @@ class PromocionesBC {
 
     }
 
-
+    public function updateEstado($id, $activo)
+    {
+        $empresaDA = new PromocionesDA();
+        return $empresaDA->updateEstado($id, $activo);
+    }
 
 
    
