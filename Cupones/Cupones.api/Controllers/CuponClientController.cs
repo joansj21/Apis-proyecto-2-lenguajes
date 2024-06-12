@@ -21,12 +21,11 @@ namespace Cupones.api.Controllers
 
 
         [HttpGet("{id}")]
-        public async Task<IEnumerable<Cupon>> GetAllTicketUser(int id)
+        public async Task<IEnumerable<Cupon>> GetAllTicketUser(int id, int pago)
         {
-            var cuponList = await gestionarCuponClientBW.getUSerCupon(id);
+            var cuponList = await gestionarCuponClientBW.getUSerCupon(id, pago);
 
             return cuponList;
-           // return MapperTicket.converListTicketDTO(ticketList);
         }
 
         [HttpPost]

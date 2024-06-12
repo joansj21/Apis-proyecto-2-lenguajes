@@ -16,6 +16,7 @@ namespace Tarea4.api.Utilitarios
                 DateOfBirth = userDto.DateOfBirth,
                 Password = userDto.Password,
                 UserId = userDto.UserId,
+                Cedula = userDto.Cedula,
 
             };
 
@@ -35,6 +36,7 @@ namespace Tarea4.api.Utilitarios
                 DateOfBirth = user.DateOfBirth,
                 Password = user.Password,
                 UserId = user.UserId,
+                Cedula= user.Cedula,
 
             };
 

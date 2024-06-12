@@ -17,9 +17,9 @@ namespace Cupones.BW.CU
         {
             this._client = _client; 
         }
-        public async Task<IEnumerable<Cupon>> getUSerCupon(int idUser)
+        public async Task<IEnumerable<Cupon>> getUSerCupon(int idUser,int pago)
         {
-            return await _client.getUSerCupon(idUser);
+            return await _client.getUSerCupon(idUser,pago);
         }
 
         public async Task<bool> RegisterCupon(Cupon cupon, Promocion[] promociones)

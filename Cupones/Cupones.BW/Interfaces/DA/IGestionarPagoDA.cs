@@ -11,5 +11,6 @@ namespace Cupones.BW.Interfaces.DA
     public interface IGestionarPagoDA
     {
         Task<Pago> insertPago(Pago pago);
+        Task<IEnumerable<Pago>> getUSerPago(int idUser);
     }
 }

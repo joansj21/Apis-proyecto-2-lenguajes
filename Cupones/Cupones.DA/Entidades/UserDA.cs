@@ -29,6 +29,8 @@ public class UserDA
 
         [Required, MaxLength(255)]
         public string Password { get; set; }
+        [Required, MaxLength(50)]
+        public string Cedula { get; set; }
     }
 
 }

@@ -35,5 +35,18 @@ namespace Cupones.api.Controllers
             return MapperPago.mapPagoDTO(result);
         }
 
+        [HttpGet("{idUser}")]
+        public async Task<ActionResult<List<Pago>>> GetPagos(int idUser)
+        {
+            var result = await gestionarPagoBW.getUSerPago(idUser);
+
+            if (result == null || !result.Any())
+            {
+                return NotFound();
+            }
+
+            return Ok(result);
+        }
+
     }
 }

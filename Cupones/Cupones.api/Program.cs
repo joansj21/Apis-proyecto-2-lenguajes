@@ -10,6 +10,7 @@ using Tarea4.BW.CU;
 using Tarea4.BW.Interfaces.BW;
 using Tarea4.BW.Interfaces.DA;
 using Tarea4.DA.Acciones;
+using Tarea4.SG;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -37,6 +38,9 @@ builder.Services.AddTransient<IGestionarPagoDA, GestionarPagoDA>();
 //Cupones Cliente
 builder.Services.AddTransient<IGestionarCuponClientBW, GestionarCuponClientBW>();
 builder.Services.AddTransient<IGestionarCuponClientDA, GestionarCuponClientDA>();
+
+builder.Services.AddTransient<GestionarMailSG>();
+
 builder.Services.AddDbContext<ProyectoCuponesContexts>(options =>
 {
     var connectionsString = "Data Source=JOAN;Initial Catalog=cliente_cupones;Integrated Security=True; TrustServerCertificate=True";

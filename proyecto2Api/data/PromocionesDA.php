@@ -48,7 +48,15 @@ class PromocionesDA {
     }
 
 
-
+    public function updateEstado($id, $activo) {
+        if ($activo == 1) {
+            $activo = 0;
+        } else {
+            $activo = 1;
+        }
+        $query = "UPDATE promociones SET activo='$activo' WHERE id='$id'";
+        return metodoPut($query);
+    }
 
 
  
