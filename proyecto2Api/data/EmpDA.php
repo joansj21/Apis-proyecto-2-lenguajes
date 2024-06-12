@@ -45,7 +45,7 @@ class empDA {
 
         $query = "INSERT INTO empresas (nombre, cedula, direccion, fecha_creacion, correo, telefono, contraseña, activo, clave_temporal) 
         VALUES ('$nombre', '$cedula', '$direccion', '$fecha_creacion', '$correo', '$telefono', '$contraseña', '$activo', '$temporal')";
-    
+
         $queryAutoIncrement = "SELECT MAX(id) as id FROM empresas";
     
         return metodoPost($query, $queryAutoIncrement);
