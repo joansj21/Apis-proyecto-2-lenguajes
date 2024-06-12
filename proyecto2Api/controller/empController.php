@@ -92,6 +92,20 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
     exit();
 }
 
+if ($_SERVER['REQUEST_METHOD'] == 'PUT') {
+    if (isset($_GET['id'])) {
+        $id = $_GET['id'];
+        $activo = $_GET['activo'];
+        $empresaBC = new empBC();
+        $resultado = $empresaBC->updateEstado($id, $activo);
+        echo json_encode($resultado->fetch(PDO::FETCH_ASSOC));
+        header("HTTP/1.1 200 OK");
+    } else {
+        header("HTTP/1.1 400 Bad Request");
+    }
+    exit();
+}
+
 
 header("HTTP/1.1 400 Bad Request");
 ?>

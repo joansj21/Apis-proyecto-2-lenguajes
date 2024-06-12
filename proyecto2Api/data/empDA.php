@@ -49,6 +49,17 @@ class empDA {
     
         return metodoPost($query, $queryAutoIncrement);
     }
+
+
+    public function updateEstado($id, $activo) {
+if($activo==1){
+    
+}else{
+}
+$query = "UPDATE empresas SET activo= WHERE id='$id'";
+
+        return metodoPut($query);
+    }
     
 }
 

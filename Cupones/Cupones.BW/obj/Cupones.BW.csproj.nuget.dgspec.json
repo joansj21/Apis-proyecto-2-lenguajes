@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DELL G5\\Desktop\\Proyecto 2\\Proyecto 2 api\\Cupones\\Cupones.BW\\Cupones.BW.csproj": {}
+    "C:\\xampp\\htdocs\\Apis-proyecto-2-lenguajes\\Cupones\\Cupones.BW\\Cupones.BW.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DELL G5\\Desktop\\Proyecto 2\\Proyecto 2 api\\Cupones\\Cupones.BC\\Cupones.BC.csproj": {
+    "C:\\xampp\\htdocs\\Apis-proyecto-2-lenguajes\\Cupones\\Cupones.BC\\Cupones.BC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL G5\\Desktop\\Proyecto 2\\Proyecto 2 api\\Cupones\\Cupones.BC\\Cupones.BC.csproj",
+        "projectUniqueName": "C:\\xampp\\htdocs\\Apis-proyecto-2-lenguajes\\Cupones\\Cupones.BC\\Cupones.BC.csproj",
         "projectName": "Cupones.BC",
-        "projectPath": "C:\\Users\\DELL G5\\Desktop\\Proyecto 2\\Proyecto 2 api\\Cupones\\Cupones.BC\\Cupones.BC.csproj",
-        "packagesPath": "C:\\Users\\DELL G5\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL G5\\Desktop\\Proyecto 2\\Proyecto 2 api\\Cupones\\Cupones.BC\\obj\\",
+        "projectPath": "C:\\xampp\\htdocs\\Apis-proyecto-2-lenguajes\\Cupones\\Cupones.BC\\Cupones.BC.csproj",
+        "packagesPath": "C:\\Users\\yarex\\.nuget\\packages\\",
+        "outputPath": "C:\\xampp\\htdocs\\Apis-proyecto-2-lenguajes\\Cupones\\Cupones.BC\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\DELL G5\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\yarex\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -64,25 +60,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\DELL G5\\Desktop\\Proyecto 2\\Proyecto 2 api\\Cupones\\Cupones.BW\\Cupones.BW.csproj": {
+    "C:\\xampp\\htdocs\\Apis-proyecto-2-lenguajes\\Cupones\\Cupones.BW\\Cupones.BW.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL G5\\Desktop\\Proyecto 2\\Proyecto 2 api\\Cupones\\Cupones.BW\\Cupones.BW.csproj",
+        "projectUniqueName": "C:\\xampp\\htdocs\\Apis-proyecto-2-lenguajes\\Cupones\\Cupones.BW\\Cupones.BW.csproj",
         "projectName": "Cupones.BW",
-        "projectPath": "C:\\Users\\DELL G5\\Desktop\\Proyecto 2\\Proyecto 2 api\\Cupones\\Cupones.BW\\Cupones.BW.csproj",
-        "packagesPath": "C:\\Users\\DELL G5\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL G5\\Desktop\\Proyecto 2\\Proyecto 2 api\\Cupones\\Cupones.BW\\obj\\",
+        "projectPath": "C:\\xampp\\htdocs\\Apis-proyecto-2-lenguajes\\Cupones\\Cupones.BW\\Cupones.BW.csproj",
+        "packagesPath": "C:\\Users\\yarex\\.nuget\\packages\\",
+        "outputPath": "C:\\xampp\\htdocs\\Apis-proyecto-2-lenguajes\\Cupones\\Cupones.BW\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\DELL G5\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\yarex\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -96,8 +88,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\DELL G5\\Desktop\\Proyecto 2\\Proyecto 2 api\\Cupones\\Cupones.BC\\Cupones.BC.csproj": {
-                "projectPath": "C:\\Users\\DELL G5\\Desktop\\Proyecto 2\\Proyecto 2 api\\Cupones\\Cupones.BC\\Cupones.BC.csproj"
+              "C:\\xampp\\htdocs\\Apis-proyecto-2-lenguajes\\Cupones\\Cupones.BC\\Cupones.BC.csproj": {
+                "projectPath": "C:\\xampp\\htdocs\\Apis-proyecto-2-lenguajes\\Cupones\\Cupones.BC\\Cupones.BC.csproj"
               }
             }
           }
@@ -132,7 +124,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -3240,24 +3240,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DELL G5\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\yarex\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DELL G5\\Desktop\\Proyecto 2\\Proyecto 2 api\\Cupones\\Cupones.api\\Cupones.api.csproj",
+      "projectUniqueName": "C:\\xampp\\htdocs\\Apis-proyecto-2-lenguajes\\Cupones\\Cupones.api\\Cupones.api.csproj",
       "projectName": "Cupones.api",
-      "projectPath": "C:\\Users\\DELL G5\\Desktop\\Proyecto 2\\Proyecto 2 api\\Cupones\\Cupones.api\\Cupones.api.csproj",
-      "packagesPath": "C:\\Users\\DELL G5\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DELL G5\\Desktop\\Proyecto 2\\Proyecto 2 api\\Cupones\\Cupones.api\\obj\\",
+      "projectPath": "C:\\xampp\\htdocs\\Apis-proyecto-2-lenguajes\\Cupones\\Cupones.api\\Cupones.api.csproj",
+      "packagesPath": "C:\\Users\\yarex\\.nuget\\packages\\",
+      "outputPath": "C:\\xampp\\htdocs\\Apis-proyecto-2-lenguajes\\Cupones\\Cupones.api\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\DELL G5\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\yarex\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3271,17 +3266,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\DELL G5\\Desktop\\Proyecto 2\\Proyecto 2 api\\Cupones\\Cupones.BC\\Cupones.BC.csproj": {
-              "projectPath": "C:\\Users\\DELL G5\\Desktop\\Proyecto 2\\Proyecto 2 api\\Cupones\\Cupones.BC\\Cupones.BC.csproj"
+            "C:\\xampp\\htdocs\\Apis-proyecto-2-lenguajes\\Cupones\\Cupones.BC\\Cupones.BC.csproj": {
+              "projectPath": "C:\\xampp\\htdocs\\Apis-proyecto-2-lenguajes\\Cupones\\Cupones.BC\\Cupones.BC.csproj"
             },
-            "C:\\Users\\DELL G5\\Desktop\\Proyecto 2\\Proyecto 2 api\\Cupones\\Cupones.BW\\Cupones.BW.csproj": {
-              "projectPath": "C:\\Users\\DELL G5\\Desktop\\Proyecto 2\\Proyecto 2 api\\Cupones\\Cupones.BW\\Cupones.BW.csproj"
+            "C:\\xampp\\htdocs\\Apis-proyecto-2-lenguajes\\Cupones\\Cupones.BW\\Cupones.BW.csproj": {
+              "projectPath": "C:\\xampp\\htdocs\\Apis-proyecto-2-lenguajes\\Cupones\\Cupones.BW\\Cupones.BW.csproj"
             },
-            "C:\\Users\\DELL G5\\Desktop\\Proyecto 2\\Proyecto 2 api\\Cupones\\Cupones.DA\\Cupones.DA.csproj": {
-              "projectPath": "C:\\Users\\DELL G5\\Desktop\\Proyecto 2\\Proyecto 2 api\\Cupones\\Cupones.DA\\Cupones.DA.csproj"
+            "C:\\xampp\\htdocs\\Apis-proyecto-2-lenguajes\\Cupones\\Cupones.DA\\Cupones.DA.csproj": {
+              "projectPath": "C:\\xampp\\htdocs\\Apis-proyecto-2-lenguajes\\Cupones\\Cupones.DA\\Cupones.DA.csproj"
             },
-            "C:\\Users\\DELL G5\\Desktop\\Proyecto 2\\Proyecto 2 api\\Cupones\\Cupones.SG\\Cupones.SG.csproj": {
-              "projectPath": "C:\\Users\\DELL G5\\Desktop\\Proyecto 2\\Proyecto 2 api\\Cupones\\Cupones.SG\\Cupones.SG.csproj"
+            "C:\\xampp\\htdocs\\Apis-proyecto-2-lenguajes\\Cupones\\Cupones.SG\\Cupones.SG.csproj": {
+              "projectPath": "C:\\xampp\\htdocs\\Apis-proyecto-2-lenguajes\\Cupones\\Cupones.SG\\Cupones.SG.csproj"
             }
           }
         }
@@ -3329,7 +3324,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

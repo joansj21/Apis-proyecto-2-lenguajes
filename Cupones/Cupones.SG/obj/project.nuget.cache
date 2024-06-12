@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2ch6fxxmzsQFSpgV6wjGg71LH4L/AU4c6kbjVYGaeVFZM9JRkPOwK5xPdC/A7OotibHBi0q0MxwVI1qOUW1FsQ==",
+  "dgSpecHash": "TD15+hysFsXBMPCqsPHNCR6s2PwRitUExZ0AW3TocXaPnIbQ3RAoS/X58ip6DPSY26692kRpv3oa4HbxvUOPPg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DELL G5\\Desktop\\Proyecto 2\\Proyecto 2 api\\Cupones\\Cupones.SG\\Cupones.SG.csproj",
+  "projectFilePath": "C:\\xampp\\htdocs\\Apis-proyecto-2-lenguajes\\Cupones\\Cupones.SG\\Cupones.SG.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
