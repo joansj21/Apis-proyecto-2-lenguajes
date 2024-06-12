@@ -1,6 +1,5 @@
 <?php
 class Empresa {
-
     public $nombre;
     public $cedula;
     public $direccion;
@@ -21,11 +20,5 @@ class Empresa {
         $this->temporal = $temporal;
         $this->correo = $correo;
     }
-
-   
-
-    // Constructor para inicializar las propiedades
-
-
 }
 ?>

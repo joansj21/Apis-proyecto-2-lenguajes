@@ -2,17 +2,7 @@
 require_once '../bd/BD.php';
 require_once '../model/Cupon.php';
 
-class EmpresaDA {
-
-
-    public function login($correo) {
-
-        $query = "SELECT * FROM empresas WHERE correo='$correo' and activo = 1";
-        
-        return metodoGet($query);
-    }
-
-
+class empDA {
 
     public function updateEmpresa( $empresa, $id) {
 
@@ -42,21 +32,33 @@ class EmpresaDA {
 
     
     public function insertEmpresa($empresa) {
-        $nombre = $empresa->getNombre();
-        $cedula = $empresa->getCedula();
-        $direccion = $empresa->getDireccion();
-        $fecha_creacion = $empresa->getFechaCreacion();
-        $correo = $empresa->getCorreo();
-        $telefono = $empresa->getTelefono();
-        $contraseña = $empresa->getContraseña();
-        $clave_temporal = $empresa->getClaveTemporal();
-        $activo = $empresa->getActivo();
+        $nombre =$empresa->nombre;
+        $cedula=$empresa->cedula;
+        $direccion=$empresa->direccion;
+        $fecha_creacion=$empresa->fecha_creacion;
+        $telefono=$empresa->telefono;
+        $contraseña=$empresa->contraseña;
+        $temporal=$empresa->temporal;
+        $activo=1;
+        $correo=$empresa->correo;
+
     
         $query = "INSERT INTO empresas(nombre, cedula, direccion, fecha_creacion, correo, telefono, contraseña, clave_temporal, activo) 
-                  VALUES ('$nombre', '$cedula', '$direccion', '$fecha_creacion', '$correo', '$telefono', '$contraseña', '$clave_temporal', '$activo')";
+                  VALUES ('$nombre', '$cedula', '$direccion', '$fecha_creacion', '$correo', '$telefono', '$contraseña', '$contraseña', '$activo')";
         $queryAutoIncrement = "SELECT MAX(id) as id FROM empresas";
     
         return metodoPost($query, $queryAutoIncrement);
+    }
+
+
+    public function updateEstado($id, $activo) {
+if($activo==1){
+    
+}else{
+}
+$query = "UPDATE empresas SET activo= WHERE id='$id'";
+
+        return metodoPut($query);
     }
     
 }

@@ -67,4 +67,33 @@ function validarCampos(Empresa $empresa) {
     return $mensajeError;
 }
 
+
+function validarCamposInsert(Empresa $empresa) {
+    $mensajeError = "";
+
+    if (!validarLongitud($empresa->nombre, 200)) {
+        $mensajeError .= 'El nombre debe tener 200 caracteres o menos. ';
+    }
+    if (!validarLongitud($empresa->direccion, 200)) {
+        $mensajeError .= 'La dirección debe tener 200 caracteres o menos. ';
+    }
+    if (!validarCedula($empresa->cedula)) {
+        $mensajeError .= 'La cédula debe tener un formato válido. ';
+    }
+    if (!validarFecha($empresa->fecha_creacion)) {
+        $mensajeError .= 'La fecha debe estar en formato DD-MM-YYYY. ';
+    }
+    if (!validarCorreo($empresa->correo)) {
+        $mensajeError .= 'El correo electrónico debe tener un formato válido. ';
+    }
+    if (!validarTelefono($empresa->telefono)) {
+        $mensajeError .= 'El teléfono debe tener un formato válido (0000-0000). ';
+    }
+    if (!validarContraseña($empresa->contraseña)) {
+        $mensajeError .= 'La contraseña debe tener al menos 8 caracteres, incluyendo una letra mayúscula, una letra minúscula, un número y un carácter especial. ';
+    }
+
+    return $mensajeError;
+}
+
 ?>
