@@ -3,20 +3,20 @@ require_once '../bd/BD.php';
 require_once '../model/Cupon.php';
 
 class empDA {
+    public function updateEmpresa($id, $nombre, $cedula, $direccion, $fecha_creacion, $telefono, $contraseña, $correo) {
 
-    public function updateEmpresa( $empresa, $id) {
+        $temporal = 1;
 
-        $nombre =$empresa->nombre;
-        $cedula=$empresa->cedula;
-        $direccion=$empresa->direccion;
-        $fecha_creacion=$empresa->fecha_creacion;
-        $telefono=$empresa->telefono;
-        $contraseña=$empresa->contraseña;
-        $temporal=$empresa->temporal;
+        if (isset($contraseña) && trim($contraseña) != "undefined") {
+            $query = "UPDATE empresas SET nombre='$nombre', cedula='$cedula', correo='$correo', direccion='$direccion', fecha_creacion='$fecha_creacion', telefono='$telefono', contraseña='$contraseña', clave_temporal='$temporal' WHERE id='$id'";
 
-      $query = "UPDATE empresas SET cedula='$cedula', direccion='$direccion', fecha_creacion='$fecha_creacion', clave_temporal='$temporal',nombre='$nombre', telefono='$telefono', contraseña='$contraseña' WHERE id='$id'";
-      $queryAutoIncrement = "SELECT MAX(id) as id FROM empresas";
-        
+        } else {
+            $query = "UPDATE empresas SET nombre='$nombre', cedula='$cedula', correo='$correo', direccion='$direccion', fecha_creacion='$fecha_creacion' WHERE id='$id'";
+
+        }
+    
+        $queryAutoIncrement = "SELECT MAX(id) as id FROM empresas";
+    
         return $resultado = metodoPut($query, $queryAutoIncrement);
     }
 

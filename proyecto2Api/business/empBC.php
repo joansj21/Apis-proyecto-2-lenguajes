@@ -6,18 +6,13 @@ include '../business/validation/validationEmpresa.php';
 class empBC {
 
 
-    public function updateEmpresa($empresa, $id) {
+    public function updateEmpresa($id,$nombre,$cedula,$direccion,$fecha_creacion,$telefono,$contraseña,$correo) {
        // Validar los campos
-    $mensajeError = validarCampos($empresa);
-
-    // Si hay un mensaje de error, devolverlo
-    if ($mensajeError !== "") {
-        return ['error' => $mensajeError];
-    }
+ 
 
     // Si no hay errores, proceder con la actualización
     $empresaDA = new empDA();
-    return $empresaDA->updateEmpresa($empresa, $id);
+    return $empresaDA->updateEmpresa($id,$nombre,$cedula,$direccion,$fecha_creacion,$telefono,$contraseña,$correo);
 
 
     }

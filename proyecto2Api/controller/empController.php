@@ -88,6 +88,42 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 }
 
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+
+
+    if (isset($_POST['update'])) {
+        unset($_POST['METHOD']);
+        // Actualizar datos de la empresa
+        $id = $_POST['id'];
+        $cedula = $_POST['cedula'];
+        $direccion = $_POST['direccion'];
+        $fecha_creacion = $_POST['fecha_creacion'];
+        $nombre = $_POST['nombre'];
+        $telefono = $_POST['telefono'];
+        $contraseña = $_POST['contraseña'];
+        $correo = $_POST['correo'];
+ 
+        
+
+        $empresa = new Empresa($nombre,$cedula,$direccion,$fecha_creacion,$telefono,$contraseña,true,$correo);
+
+        $empresaBC = new empBC();
+
+
+
+        $resultado =$empresaBC->updateEmpresa($id,$nombre,$cedula,$direccion,$fecha_creacion,$telefono,$contraseña,$correo);
+
+
+        echo json_encode($resultado);
+
+
+
+        header("HTTP/1.1 200 OK");
+        exit();
+        } 
+
+}
+
 
 if ($_SERVER['REQUEST_METHOD'] == 'GET') {
     if (isset($_GET['allEmpresas'])) {
